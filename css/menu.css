@@ -1,0 +1,21 @@
+.menu-main{
+    max-width: 100%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    transform: translateY(-1000%);
+    position: absolute;
+    background: #fff;
+}
+.menu-home{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-home .close{
+    color: #5f5f5f;
+    transform: translateY(-5px);
+}
+.menu-element{
+    color: rgb(148, 148, 148);
+}

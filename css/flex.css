@@ -1,0 +1,8 @@
+.flex-main, .flex-main-2, .flex-main-fm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-main-2{
+    justify-content: space-between;
+}

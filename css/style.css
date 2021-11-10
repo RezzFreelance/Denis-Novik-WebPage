@@ -1,0 +1,137 @@
+@import url("flex.css");
+@import url("menu.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.app{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    margin-top: 20px;
+    border-bottom: 1px solid #5f5f5f;
+    padding-bottom: 30px;
+}
+.main-info .charge-lang{
+    transform: rotate(90deg);
+    margin-top: 30px;
+}
+.denis-pic{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.about, .portfolio{
+    background: #f5f5f5;
+    width: 100%;
+    margin-top: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.portfolio-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+.content-area{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio-a{
+    color: #000;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+}
+.skills{
+    margin-top: 60px;
+}
+.work-icon{
+    max-width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+.fa{
+    margin-top: 20px;
+    margin-left: 3px;
+}
+button{
+    display: block;
+    background: #000;
+    border: 0;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    margin-top: 30px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.menu-burger{
+    display: none;
+}
+
+.h1-flex{
+    display: block;
+}
+
+.menu-burger-main{
+    display: none;
+}
+
+@media (max-width: 470px) {
+    .denis-pic{
+        width: 100%;
+    }
+    .charge-lang{
+        display: none;
+    }
+    .flex-main-fm{
+        display: block;
+    }
+    .flex-main, header{
+        display: none;
+    }
+    .flex-main-2{
+        display: block;
+        margin-top: 10px;
+    }
+    .menu-burger{
+        display: block;
+        position: relative;
+        left: 90%;
+    }
+    .denis-text{
+        margin-top: 10px;
+    }
+    .h1-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .menu-butger-main{
+        display: block;
+        width: 50px;
+    }
+    .menu-burger-element{
+        display: block;
+        width: 100%;
+        height: 5px;
+        margin-top: 5px;
+        background: #000;
+        margin-top: 5px;
+    }
+}
